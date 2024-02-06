@@ -1,0 +1,1508 @@
+
+
+html{
+    scroll-padding-top: 75px;
+}
+:root{
+    --main-color: #4726e1;
+}
+.text-main{
+    color: var(--main-color);
+}
+header{
+    background-image: url(../images/hero-bg.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+header h1{
+    font-size: 4rem;
+    font-weight: 600;
+}
+header h3{
+    font-size: 2rem;
+    font-weight: 600;
+}
+header h3::after{
+    content: " |";
+    -webkit-animation-name: typing;
+            animation-name: typing;
+    -webkit-animation-duration: 15s;
+            animation-duration: 15s;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+}
+nav .font-size{
+    font-size: 1.8rem;
+}
+nav .font-size1{
+    font-size: 1.2rem;
+}
+ul{
+    list-style: none;
+}
+.progress{
+    border-radius: 0;
+}
+section .row h5{
+    font-size: 1rem;
+}
+
+nav ul li a{
+    position: relative;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+}
+nav ul li a::before{
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    background-color: white;
+    left: 10%;
+    bottom: 0px;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+}
+nav ul li a:hover::before{
+width: 70%;
+color: white;
+}
+.navbar-nav .nav-link.active::before{
+    width: 70%;
+}
+
+
+@-webkit-keyframes typing {
+    0% {
+        content: " D|";
+    }
+
+    1% {
+        content: " De|";
+    }
+
+    2% {
+        content: " Des|";
+    }
+
+    3% {
+        content: " Desi|";
+    }
+
+    4% {
+        content: " Desig|";
+    }
+
+    5% {
+        content: " Design|";
+    }
+
+    6% {
+        content: " Designe|";
+    }
+
+    7% {
+        content: " Designer|";
+    }
+
+    8% {
+        content: " Designer ";
+    }
+
+    9% {
+        content: " Designer|";
+    }
+
+    10% {
+        content: " Designer ";
+    }
+
+    11% {
+        content: " Designer|";
+    }
+
+    12% {
+        content: " Designer";
+    }
+
+    13% {
+        content: " Designer|";
+    }
+
+   14% {
+        content: " Designe|";
+    }
+
+    15% {
+        content: " Design|";
+    }
+
+    16% {
+        content: " Desig|";
+    }
+
+    17% {
+        content: " Desi|";
+    }
+
+    18% {
+        content: " Des|";
+    }
+
+    19% {
+        content: " De|";
+    }
+
+    20% {
+        content: " Dev|";
+    }
+
+    21% {
+        content: " Deve|";
+    }
+
+    22% {
+        content: " Devel|";
+    }
+
+    23% {
+        content: " Develo|";
+    }
+
+    24% {
+        content: " Develop|";
+    }
+
+    25% {
+        content: " Develope|";
+    }
+
+    26% {
+        content: " Developer|";
+    }
+
+    27% {
+        content: "  Developer ";
+    }
+
+    28% {
+        content: "  Developer|";
+    }
+
+    29% {
+        content: "  Developer ";
+    }
+
+    30% {
+        content: "  Developer|";
+    }
+    31% {
+        content: "  Developer ";
+    }
+    32% {
+        content: "  Developer|";
+    }
+
+    33% {
+        content: " Develope|";
+    }
+
+    34% {
+        content: " Develop|";
+    }
+
+    35% {
+        content: " Develo|";
+    }
+
+    36% {
+        content: " Devel|";
+    }
+
+    37% {
+        content: " Deve|";
+    }
+
+    38% {
+        content: " Dev|";
+    }
+
+    39% {
+        content: " De|";
+    }
+
+    40% {
+        content: " D|";
+    }
+
+    41% {
+        content: " |";
+    }
+
+    42% {
+        content: " F|";
+    }
+
+    43% {
+        content: " Fr|";
+    }
+
+    44% {
+        content: " Fre|";
+    }
+
+    45% {
+        content: " Free|";
+    }
+
+    46% {
+        content: "Free|";
+    }
+
+    47% {
+        content: "Freel|";
+    }
+
+    48% {
+        content: " Freela|";
+    }
+
+    49% {
+        content: "Freelan|";
+    }
+
+    50% {
+        content: " Freelanc|";
+    }
+
+    51% {
+        content: " Freelance|";
+    }
+
+    52% {
+        content: " Freelancer|";
+    }
+    53% {
+        content: " Freelancer";
+    }
+    54% {
+        content: " Freelancer|";
+    }
+    55% {
+        content: " Freelancer";
+    }
+    
+    56% {
+        content: " Freelancer|";
+    }
+    
+    57% {
+        content: " Freelancer";
+    }
+    
+    58% {
+        content: " Freelancer|";
+    }
+    
+    59% {
+        content: " Freelance|";
+    }
+    
+    60% {
+        content: " Freelanc|";
+    }
+    
+    61% {
+        content: " Freelan|";
+    }
+    
+    62% {
+        content: " Freela|";
+    }
+    
+    63% {
+        content: " Freel|";
+    }
+    
+    64% {
+        content: " Free|";
+    }
+    
+    65% {
+        content: " Fre|";
+    }
+    
+    66% {
+        content: " Fr|";
+    }
+    
+    67% {
+        content: " F|";
+    }
+    
+    68% {
+        content: " |";
+    }
+    69% {
+        content: " P|";
+    }
+    70% {
+        content: " Ph|";
+    }
+    71% {
+        content: " Pho|";
+    }
+    72% {
+        content: " Phot|";
+    }
+    73% {
+        content: " Photo|";
+    }
+    74% {
+        content: "Photog|";
+    }
+    75% {
+        content: " Photogr|";
+    }
+    76% {
+        content: " Photogra|";
+    }
+    77% {
+        content: "Photograp |";
+    }
+    78% {
+        content: " Photograph|";
+    }
+    79% {
+        content: "Photographe|";
+    }
+    80% {
+        content: " Photographer|";
+    }
+    81% {
+        content: " Photographer";
+    }
+    82% {
+        content: " Photographer|";
+    }
+    83% {
+        content: " Photographer";
+    }
+    
+    84% {
+        content: " Photographer|";
+    }
+    
+    85% {
+        content: " Photographer";
+    }
+    
+    86% {
+        content: " Photographer|";
+    }
+    
+    87% {
+        content: " Photographer";
+    }
+    
+    88% {
+        content: " Photographer|";
+    }
+    
+    89% {
+        content: " Photographe|";
+    }
+    
+    90% {
+        content: " Photograph|";
+    }
+    
+    91% {
+        content: " Photograp|";
+    }
+    
+    92% {
+        content: " Photogra|";
+    }
+    
+    93% {
+        content: " Photogr|";
+    }
+    94% {
+        content: " Photog|";
+    }
+    95% {
+        content: " Photo|";
+    }
+    96% {
+        content: " Phot|";
+    }
+    97% {
+        content: " Pho|";
+    }
+    98% {
+        content: " Ph|";
+    }
+    99% {
+        content: " P|";
+    }
+    100% {
+        content: " |";
+    }
+    
+    
+
+}
+
+
+@keyframes typing {
+    0% {
+        content: " D|";
+    }
+
+    1% {
+        content: " De|";
+    }
+
+    2% {
+        content: " Des|";
+    }
+
+    3% {
+        content: " Desi|";
+    }
+
+    4% {
+        content: " Desig|";
+    }
+
+    5% {
+        content: " Design|";
+    }
+
+    6% {
+        content: " Designe|";
+    }
+
+    7% {
+        content: " Designer|";
+    }
+
+    8% {
+        content: " Designer ";
+    }
+
+    9% {
+        content: " Designer|";
+    }
+
+    10% {
+        content: " Designer ";
+    }
+
+    11% {
+        content: " Designer|";
+    }
+
+    12% {
+        content: " Designer";
+    }
+
+    13% {
+        content: " Designer|";
+    }
+
+   14% {
+        content: " Designe|";
+    }
+
+    15% {
+        content: " Design|";
+    }
+
+    16% {
+        content: " Desig|";
+    }
+
+    17% {
+        content: " Desi|";
+    }
+
+    18% {
+        content: " Des|";
+    }
+
+    19% {
+        content: " De|";
+    }
+
+    20% {
+        content: " Dev|";
+    }
+
+    21% {
+        content: " Deve|";
+    }
+
+    22% {
+        content: " Devel|";
+    }
+
+    23% {
+        content: " Develo|";
+    }
+
+    24% {
+        content: " Develop|";
+    }
+
+    25% {
+        content: " Develope|";
+    }
+
+    26% {
+        content: " Developer|";
+    }
+
+    27% {
+        content: "  Developer ";
+    }
+
+    28% {
+        content: "  Developer|";
+    }
+
+    29% {
+        content: "  Developer ";
+    }
+
+    30% {
+        content: "  Developer|";
+    }
+    31% {
+        content: "  Developer ";
+    }
+    32% {
+        content: "  Developer|";
+    }
+
+    33% {
+        content: " Develope|";
+    }
+
+    34% {
+        content: " Develop|";
+    }
+
+    35% {
+        content: " Develo|";
+    }
+
+    36% {
+        content: " Devel|";
+    }
+
+    37% {
+        content: " Deve|";
+    }
+
+    38% {
+        content: " Dev|";
+    }
+
+    39% {
+        content: " De|";
+    }
+
+    40% {
+        content: " D|";
+    }
+
+    41% {
+        content: " |";
+    }
+
+    42% {
+        content: " F|";
+    }
+
+    43% {
+        content: " Fr|";
+    }
+
+    44% {
+        content: " Fre|";
+    }
+
+    45% {
+        content: " Free|";
+    }
+
+    46% {
+        content: "Free|";
+    }
+
+    47% {
+        content: "Freel|";
+    }
+
+    48% {
+        content: " Freela|";
+    }
+
+    49% {
+        content: "Freelan|";
+    }
+
+    50% {
+        content: " Freelanc|";
+    }
+
+    51% {
+        content: " Freelance|";
+    }
+
+    52% {
+        content: " Freelancer|";
+    }
+    53% {
+        content: " Freelancer";
+    }
+    54% {
+        content: " Freelancer|";
+    }
+    55% {
+        content: " Freelancer";
+    }
+    
+    56% {
+        content: " Freelancer|";
+    }
+    
+    57% {
+        content: " Freelancer";
+    }
+    
+    58% {
+        content: " Freelancer|";
+    }
+    
+    59% {
+        content: " Freelance|";
+    }
+    
+    60% {
+        content: " Freelanc|";
+    }
+    
+    61% {
+        content: " Freelan|";
+    }
+    
+    62% {
+        content: " Freela|";
+    }
+    
+    63% {
+        content: " Freel|";
+    }
+    
+    64% {
+        content: " Free|";
+    }
+    
+    65% {
+        content: " Fre|";
+    }
+    
+    66% {
+        content: " Fr|";
+    }
+    
+    67% {
+        content: " F|";
+    }
+    
+    68% {
+        content: " |";
+    }
+    69% {
+        content: " P|";
+    }
+    70% {
+        content: " Ph|";
+    }
+    71% {
+        content: " Pho|";
+    }
+    72% {
+        content: " Phot|";
+    }
+    73% {
+        content: " Photo|";
+    }
+    74% {
+        content: "Photog|";
+    }
+    75% {
+        content: " Photogr|";
+    }
+    76% {
+        content: " Photogra|";
+    }
+    77% {
+        content: "Photograp |";
+    }
+    78% {
+        content: " Photograph|";
+    }
+    79% {
+        content: "Photographe|";
+    }
+    80% {
+        content: " Photographer|";
+    }
+    81% {
+        content: " Photographer";
+    }
+    82% {
+        content: " Photographer|";
+    }
+    83% {
+        content: " Photographer";
+    }
+    
+    84% {
+        content: " Photographer|";
+    }
+    
+    85% {
+        content: " Photographer";
+    }
+    
+    86% {
+        content: " Photographer|";
+    }
+    
+    87% {
+        content: " Photographer";
+    }
+    
+    88% {
+        content: " Photographer|";
+    }
+    
+    89% {
+        content: " Photographe|";
+    }
+    
+    90% {
+        content: " Photograph|";
+    }
+    
+    91% {
+        content: " Photograp|";
+    }
+    
+    92% {
+        content: " Photogra|";
+    }
+    
+    93% {
+        content: " Photogr|";
+    }
+    94% {
+        content: " Photog|";
+    }
+    95% {
+        content: " Photo|";
+    }
+    96% {
+        content: " Phot|";
+    }
+    97% {
+        content: " Pho|";
+    }
+    98% {
+        content: " Ph|";
+    }
+    99% {
+        content: " P|";
+    }
+    100% {
+        content: " |";
+    }
+    
+    
+
+}
+
+section .icon{
+    width: 100px;
+    height: 100px;
+    font-size: 2rem;
+}
+section .count{
+    background-image:-webkit-gradient(linear, left top, left bottom, from(rgba(37, 130, 245, 0.6)), to(rgba(37, 130, 245, 0.6))), url(../images/counters-bg.jpg);
+    background-image:-o-linear-gradient(rgba(37, 130, 245, 0.6), rgba(37, 130, 245, 0.6)), url(../images/counters-bg.jpg);
+    background-image:linear-gradient(rgba(37, 130, 245, 0.6), rgba(37, 130, 245, 0.6)), url(../images/counters-bg.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+section .slider{
+    background-image:-webkit-gradient(linear, left top, left bottom, from(rgba(37, 130, 245, 0.6)), to(rgba(37, 130, 245, 0.6))), url(../images/overlay-bg.jpg);
+    background-image:-o-linear-gradient(rgba(37, 130, 245, 0.6), rgba(37, 130, 245, 0.6)), url(../images/overlay-bg.jpg);
+    background-image:linear-gradient(rgba(37, 130, 245, 0.6), rgba(37, 130, 245, 0.6)), url(../images/overlay-bg.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+section .count .icon{
+    width: 60px;
+    height: 60px;
+    font-size: 2rem;
+}
+
+ 
+
+.carousel-indicators [data-bs-target]{
+    width: 10px;
+    height: 10px;
+
+}
+.nav-link{
+color:white;
+}
+ul .color{
+    font-weight: 400;
+    color: #212529;
+}
+ul .color:hover{
+    color: #0078FF;
+    background-color: transparent;
+}
+ul .color:active{
+    color: #0078FF !important;
+    background-color: transparent;
+}
+.dropdown-item:hover {
+    color: #0078FF;
+    background-color: transparent;
+}
+.navbar-nav .nav-link.show {
+    color: #0078FF;
+    background-color: transparent;
+}
+
+.portfolio i:hover{
+    cursor: pointer;
+}
+.portfolio  img{
+    -webkit-transition: -webkit-transform 1s;
+    transition: -webkit-transform 1s;
+    -o-transition: transform 1s ;
+    transition: transform 1s ;
+    transition: transform 1s, -webkit-transform 1s;
+}
+.portfolio  img:hover{
+    -webkit-transform: scale(1.2);
+        -ms-transform: scale(1.2);
+            transform: scale(1.2);
+}
+#Blog .size{
+    width: 30px;
+    height: 30px;
+}
+a{
+    text-decoration: none;
+}
+.card1-small{
+    top: 96%;
+    left: 45%;
+}
+.card-small{
+    top: 96%;
+    left: 40%;
+}
+.f p{
+    font-size: 0.7rem;
+}
+
+#contact{
+    background-image:-webkit-gradient(linear, left top, left bottom, from(rgba(37, 130, 245, 0.6)), to(rgba(37, 130, 245, 0.6))), url(../images/overlay-bg.jpg);
+    background-image:-o-linear-gradient(rgba(37, 130, 245, 0.6), rgba(37, 130, 245, 0.6)), url(../images/overlay-bg.jpg);
+    background-image:linear-gradient(rgba(37, 130, 245, 0.6), rgba(37, 130, 245, 0.6)), url(../images/overlay-bg.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+#contact button{
+    border-radius: 20px;
+}
+
+footer{
+    background-color: #0062D3;
+}
+#contact h2 {
+    font-size: 2rem;
+    position: relative;
+}
+
+#contact h2::after {
+    content: "";
+    background-color: #0078FF;
+    height: 4px;
+    border-radius: 10px;
+    width: 20%;
+    position: absolute;
+    top: 150%;
+    left: 0;
+}
+ .line{
+    background-color: #0078FF;
+    height: 4px;
+    width: 35px;
+}
+ .line-about{
+    background-color: #0078FF;
+    height: 3px;
+    width: 100px;
+}
+#SERVICES .icon{
+    border: 10px #0078FF solid;
+}
+#SERVICES .count .icon{
+    border: 10px #CDE1F8 solid;
+}
+#SERVICES .item:hover .icon{
+background-color: #0078FF;
+border-color: #CDE1F8;
+}
+
+#Blog .card-title:hover{
+    color: #0078FF;
+}
+
+
+#contact button{
+    background-color: #0078FF;
+}
+#contact button:hover{
+    border: 2px #CDE1F8 solid;
+    background-color: #3393FF;
+}
+.icons ul li{
+    width: 3rem;
+    height: 3rem;
+}
+.icons ul li {
+    border: 5px #0078FF solid;
+}
+.icons ul li:hover {
+background-color: #0078FF;
+border-color: #CDE1F8;
+}
+
+
+ #Blog .blog-link h6{
+    color: black;
+}
+ #Blog .blog-link:hover h6{
+    color: #0078FF;
+}
+
+#SERVICES .counter1{
+    font-size: 2rem;
+}
+#SERVICES .counter1::after{
+    content: "450";
+    -webkit-animation-name: count1;
+            animation-name: count1;
+    -webkit-animation-duration: 1s;
+            animation-duration: 1s;
+}
+@-webkit-keyframes count1 {
+    0% {
+        content: " 0";
+    }
+
+    10% {
+        content: "45 ";
+    }
+
+
+    20% {
+        content: " 90";
+    }
+
+
+    30% {
+        content: "  135";
+    }
+
+    40% {
+        content: "180";
+    }
+
+
+    50% {
+        content: " 225";
+    }
+
+    
+    60% {
+        content: " 270";
+    }
+  
+    70% {
+        content: " 315";
+    }
+  
+    80% {
+        content: " 360";
+    }
+  
+    
+    90% {
+        content: " 405";
+    }
+    
+    100% {
+        content: " 450";
+    }
+    
+    
+
+}
+@keyframes count1 {
+    0% {
+        content: " 0";
+    }
+
+    10% {
+        content: "45 ";
+    }
+
+
+    20% {
+        content: " 90";
+    }
+
+
+    30% {
+        content: "  135";
+    }
+
+    40% {
+        content: "180";
+    }
+
+
+    50% {
+        content: " 225";
+    }
+
+    
+    60% {
+        content: " 270";
+    }
+  
+    70% {
+        content: " 315";
+    }
+  
+    80% {
+        content: " 360";
+    }
+  
+    
+    90% {
+        content: " 405";
+    }
+    
+    100% {
+        content: " 450";
+    }
+    
+    
+
+}
+
+#SERVICES .counter2{
+    font-size: 2rem;
+}
+#SERVICES .counter2::after{
+    content: "25";
+    -webkit-animation-name: count2;
+            animation-name: count2;
+    -webkit-animation-duration: 1s;
+            animation-duration: 1s;
+}
+@-webkit-keyframes count2 {
+    0% {
+        content: " 2";
+    }
+
+    10% {
+        content: "4 ";
+    }
+
+
+    20% {
+        content: " 6";
+    }
+
+
+    30% {
+        content: "  8";
+    }
+
+    40% {
+        content: "10";
+    }
+
+
+    50% {
+        content: " 12";
+    }
+
+    
+    60% {
+        content: " 14";
+    }
+  
+    70% {
+        content: " 16";
+    }
+  
+    80% {
+        content: " 18";
+    }
+  
+    
+    90% {
+        content: " 20";
+    }
+    
+    100% {
+        content: " 22";
+    }
+    
+    
+
+}
+@keyframes count2 {
+    0% {
+        content: " 2";
+    }
+
+    10% {
+        content: "4 ";
+    }
+
+
+    20% {
+        content: " 6";
+    }
+
+
+    30% {
+        content: "  8";
+    }
+
+    40% {
+        content: "10";
+    }
+
+
+    50% {
+        content: " 12";
+    }
+
+    
+    60% {
+        content: " 14";
+    }
+  
+    70% {
+        content: " 16";
+    }
+  
+    80% {
+        content: " 18";
+    }
+  
+    
+    90% {
+        content: " 20";
+    }
+    
+    100% {
+        content: " 22";
+    }
+    
+    
+
+}
+
+#SERVICES .counter3{
+    font-size: 2rem;
+}
+#SERVICES .counter3::after{
+    content: "550";
+    -webkit-animation-name: count3;
+            animation-name: count3;
+    -webkit-animation-duration: 1s;
+            animation-duration: 1s;
+}
+@-webkit-keyframes count3 {
+    0% {
+        content: " 5";
+    }
+
+    10% {
+        content: "55 ";
+    }
+
+
+    20% {
+        content: " 110";
+    }
+
+
+    30% {
+        content: "  165";
+    }
+
+    40% {
+        content: "220";
+    }
+
+
+    50% {
+        content: " 275";
+    }
+
+    
+    60% {
+        content: " 330";
+    }
+  
+    70% {
+        content: " 385";
+    }
+  
+    80% {
+        content: " 440";
+    }
+  
+    
+    90% {
+        content: " 495";
+    }
+    
+    100% {
+        content: " 550";
+    }
+    
+    
+
+}
+@keyframes count3 {
+    0% {
+        content: " 5";
+    }
+
+    10% {
+        content: "55 ";
+    }
+
+
+    20% {
+        content: " 110";
+    }
+
+
+    30% {
+        content: "  165";
+    }
+
+    40% {
+        content: "220";
+    }
+
+
+    50% {
+        content: " 275";
+    }
+
+    
+    60% {
+        content: " 330";
+    }
+  
+    70% {
+        content: " 385";
+    }
+  
+    80% {
+        content: " 440";
+    }
+  
+    
+    90% {
+        content: " 495";
+    }
+    
+    100% {
+        content: " 550";
+    }
+    
+    
+
+}
+#SERVICES .counter4{
+    font-size: 2rem;
+}
+#SERVICES .counter4::after{
+    content: "48";
+    -webkit-animation-name: count4;
+            animation-name: count4;
+    -webkit-animation-duration: 1s;
+            animation-duration: 1s;
+}
+@-webkit-keyframes count4 {
+    0% {
+        content: " 1";
+    }
+
+    10% {
+        content: "4 ";
+    }
+
+
+    20% {
+        content: " 8";
+    }
+
+
+    30% {
+        content: "  12";
+    }
+
+    40% {
+        content: "16";
+    }
+
+
+    50% {
+        content: " 20";
+    }
+
+    
+    60% {
+        content: " 24";
+    }
+  
+    70% {
+        content: " 28";
+    }
+  
+    80% {
+        content: " 32";
+    }
+  
+    
+    90% {
+        content: " 37";
+    }
+    
+    100% {
+        content: " 42";
+    }
+    
+    
+
+}
+@keyframes count4 {
+    0% {
+        content: " 1";
+    }
+
+    10% {
+        content: "4 ";
+    }
+
+
+    20% {
+        content: " 8";
+    }
+
+
+    30% {
+        content: "  12";
+    }
+
+    40% {
+        content: "16";
+    }
+
+
+    50% {
+        content: " 20";
+    }
+
+    
+    60% {
+        content: " 24";
+    }
+  
+    70% {
+        content: " 28";
+    }
+  
+    80% {
+        content: " 32";
+    }
+  
+    
+    90% {
+        content: " 37";
+    }
+    
+    100% {
+        content: " 42";
+    }
+    
+    
+
+}
+
+@media screen and (max-width:992px){
+    header h1{
+        font-size: 3.5rem;
+        font-weight: 600;
+    }
+    header h3{
+        font-size: 2rem;
+        font-weight: 600;
+    }
+    nav ul li a:hover::before{
+        width: 0;
+        }
+        .navbar-nav .nav-link.active::before{
+            width: 0;
+        }
+        
+}
+
+.navbar-nav .nav-link.show {
+    color: gray;
+}
+ul .color:hover {
+    color: gray;
+}
